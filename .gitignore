@@ -1,0 +1,62 @@
+# Общие исключения для Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+
+# Логи
+*.log
+*.log.*
+
+# Виртуальные окружения
+venv/
+env/
+.virtualenv/
+
+# Исключения для IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*~
+
+# Исключения для сборок
+*.egg-info/
+dist/
+build/
+
+# Исключения для Docker
+docker-compose.override.yml
+*.pid
+
+# Исключения для тестов
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+.cache/
+
+# Исключения для данных
+*.db
+*.sqlite3
+*.sqlite
+
+# Исключения для статических файлов, если используются
+static/
+media/
+
+# Исключения для CI/CD, если есть специфичные файлы
+.coverage.*
+.nox/
+
+# Конфигурационные файлы
+config.yaml
+*.config
+settings.json
+
+# Исключения для временных и резервных файлов
+*.bak
+*.tmp
+*.old
+.DS_Store
+Thumbs.db
